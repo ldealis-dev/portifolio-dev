@@ -1,0 +1,56 @@
+#projects {
+
+    header {
+        margin: 72px auto 56px auto;
+        text-align: center;
+
+        p {
+            color: var(--red);
+            font: var(--subtitle);
+            margin-bottom: 8px;
+        }
+
+        h6 {
+            color: var(--gray-600);
+            font: var(--title-md);
+        }
+    }
+}
+
+#grid-cards {
+    margin-inline: auto;
+    margin-bottom: 144px;
+    width: 1040px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 24px;
+}
+
+.project-card {
+    background-color: var(--gray-300);
+    border-radius: 16px;
+    width: 330px;
+
+    .thumbnail {
+        width: 100%;
+        border-radius: 24px;
+        padding: 12px;
+    }
+}
+
+.card-title {
+    padding: 8px 12px 17px 12px;
+
+    .title-sm {
+        color: var(--gray-600);
+        font: var(--title-sm);
+        padding: 4px;
+    }
+
+    .text-sm {
+        color: var(--gray-500);
+        font: var(--text-sm);
+        padding: 4px;
+    }
+}
