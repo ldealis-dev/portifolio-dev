@@ -29,6 +29,7 @@
         width: 100%;
         border-radius: 50%;
         border: 2px solid #E3646E;
+        padding: 4px;
     }
 
     figcaption {
@@ -37,7 +38,7 @@
         img {
             position: absolute;
             bottom: 0;
-            right: 16px;
+            right: -6px;
         }
     }
 }
