@@ -21,12 +21,12 @@
     --font-inconsolota: "Inconsolata", monospace;
     --font-asap: "Asap", sans-serif;
 
-    --title-lg: 800 56px/120% var(--font-asap);
-    --title-md: 800 24px/120% var(--font-asap);
-    --title-sm: 800 16px/120% var(--font-asap);
-    --subtitle: 20px/120% var(--font-inconsolota);
+    --title-lg: 700 56px/120% var(--font-asap);
+    --title-md: 700 24px/120% var(--font-asap);
+    --title-sm: 700 16px/120% var(--font-asap);
     --text-md: 16px/140% var(--font-maven);
     --text-sm: 14px/140% var(--font-maven);
+    --subtitle: 20px/120% var(--font-inconsolota);
 
 }
 
